@@ -7,5 +7,4 @@ describe('A vector', function() {
         var vector = new Vector( [3.0, 3.0] );
         expect(vector.scalarMultiply(5)).toEqual( [15.0, 15.0] )
     });
-    it('should correctly translate ')
 });
