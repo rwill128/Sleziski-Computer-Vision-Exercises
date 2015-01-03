@@ -1,5 +1,7 @@
-Sleziksi-Computer-Vision-Exercises (My apologies to Sleziski for the mispelling in the repo. I will change if I figure out how.)
+Sleziksi-Computer-Vision-Exercises
 ===================================
+
+ (My apologies to Sleziski for the mispelling in the repo. I will change if I figure out how.)
 
 A collection of programs written to fulfill the exercises for Richard Slezinski's book, Computer Vision: Algorithms and Applications
 
