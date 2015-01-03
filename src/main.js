@@ -1,17 +1,7 @@
-requirejs.config({
-    paths: {
-        'zebra': '../lib/zebra',
-        'lodash': '../lib/lodash'
-    },
+zebra.ready(function () {
+    var canvas = new zebra.ui.zCanvas(400, 700);
 
-    shim: {
-        'lodash': {
-            exports: '_'
-        }
-    }
-});
-
-define(['app', 'zebra'], function(App, zebra) {
-    var app = new App(zebra);
-    app.start();
+    canvas.root.setLayout(new zebra.layout.BorderLayout(8));
+    canvas.root.add(zebra.layout.CENTER, new zebra.ui.TextArea(""));
+    canvas.root.add(zebra.layout.BOTTOM, new zebra.ui.Button("Clean"));
 });
