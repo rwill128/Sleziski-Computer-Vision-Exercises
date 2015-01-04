@@ -12,9 +12,24 @@ function Vector(elements) {
     };
     
     self.scalarMultiply = function(scalar) {
-        return _.map(self.elements, function(num) {
+        return new Vector(_.map(self.elements, function(num) {
             return num * scalar;
-        })
+        }))
+    };
+    
+    self.subtract = function(vect) {
+        var newElements = _.merge(self.elements, vect.elements, function(a, b) {
+           return a - b;            
+        });
+        return new Vector(newElements);
+    };
+    
+    self.translate = function(translationArray) {
+        // This is using the x' = x + t form of translation. (The simplest one.)
+        var newElements = _.merge(self.elements, translationArray.elements, function(a, b) {
+            return a + b;
+        });
+        self.elements = newElements;
     };
     
     return self;

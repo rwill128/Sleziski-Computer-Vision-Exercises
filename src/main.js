@@ -6,48 +6,68 @@ window.onload = function() {
     var leftButton = document.getElementById("leftButton");
     var rightButton = document.getElementById("rightButton");
     var context = grid.getContext("2d");
-    var rectangles = [];
+    var polygons = [];
     var transformationFunctions = [];
     var rectInCreation;
     var FPS = 20;
     var transformationType;
 
-    function transform(point) {
-        transformationFunctions[transformationType](point)
+    function transform(point, mouseVect) {
+        transformationFunctions[transformationType](point, mouseVect)
     }
 
     function getNearestPoint(mouseVect) {
         var allPoints = [];
-        _.forEach(rectangles, function(rect) {
-            allPoints.push(rect.getTopLeft())
-            allPoints.push(rect.getBottomRight())
-            allPoints.push(rect.getBottomLeft())
-            allPoints.push(rect.getTopRight())
-        })
-        _.min(allPoints, function(rectangle) {
-            
-            
-        })
+        _.forEach(polygons, function(poly) {
+            allPoints.push.apply(allPoints, poly.vectors)
+        });
+        return _.min(allPoints, function(vect) {
+            var vectToMouse = mouseVect.subtract(vect);
+            return vectToMouse.magnitude();
+        });
     }
 
+    var clickCounter = 0;
     var clickListener = function(event) {
         if(event['ctrlKey'] === true) {
-            transform(getNearestPoint(new Vector([event.pageX, event.pageY])))
+            var mouseVect = new Vector([event.pageX, event.pageY]);
+            transform(getNearestPoint(mouseVect), mouseVect);
         } else {
-            if (rectInCreation !== undefined) {
-                rectInCreation.setBottomRight(event.pageX, event.pageY);
-                rectangles.push(rectInCreation);
-                rectInCreation = undefined;
+            clickCounter = clickCounter + 1;
+            if (rectInCreation === undefined) {
+                rectInCreation = new Polygon([new Vector([event.pageX, event.pageY])]);
             } else {
-                rectInCreation = new Rectangle(event.pageX, event.pageY, event.pageX, event.pageY)
+                if (clickCounter > 4) {
+                    polygons.push(rectInCreation);
+                    rectInCreation = undefined;
+                    clickCounter = 0;
+                } else {
+                    rectInCreation.vectors.push(new Vector([event.pageX, event.pageY]));
+                }
             }
-            console.log(rectInCreation.getBottomLeftVector())
         }
     };
     grid.addEventListener("click", clickListener);
     
-    transformationFunctions["translation"] = function() {
-        
+    transformationFunctions["translation"] = function(point, mouse) {
+        console.log(point.elements[0]);
+        console.log(point.elements[1]);
+        console.log(mouse.elements[0]);
+        console.log(mouse.elements[1]);
+        var difference = mouse.subtract(point);
+        console.log(point.elements[0]);
+        console.log(point.elements[1]);
+        console.log(mouse.elements[0]);
+        console.log(mouse.elements[1]);
+        console.log(difference.elements[0]);
+        console.log(difference.elements[1]);
+        point.translate(difference);
+        console.log(point.elements[0]);
+        console.log(point.elements[1]);
+        console.log(mouse.elements[0]);
+        console.log(mouse.elements[1]);
+        console.log(difference.elements[0]);
+        console.log(difference.elements[1]);
     };
     
     transformationFunctions["affine"] = function() {
@@ -73,12 +93,12 @@ window.onload = function() {
 
     function draw() {
         context.clearRect(0,0,1024,768);
-        _.forEach(rectangles, function(rect) {
+        _.forEach(polygons, function(poly) {
             context.beginPath();
-            context.moveTo(rect.getTopLeftVector().elements[0], rect.getTopLeftVector().elements[1]);
-            context.lineTo(rect.getBottomLeftVector().elements[0], rect.getBottomLeftVector().elements[1]);
-            context.lineTo(rect.getBottomRightVector().elements[0], rect.getBottomRightVector().elements[1]);
-            context.lineTo(rect.getTopRightVector().elements[0], rect.getTopRightVector().elements[1]);
+            context.moveTo(poly.vectors[0].elements[0], poly.vectors[0].elements[1]);
+            _.forEach(poly.vectors, function(vect) {
+               context.lineTo(vect.elements[0], vect.elements[1])
+            });
             context.closePath();
             context.stroke();
         });
