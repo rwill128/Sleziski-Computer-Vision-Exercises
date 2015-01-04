@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src='lib/zebra/zebra.js'></script>
     <script src='lib/lodash/lodash.js'></script>
-    <script src='src/gui-components/mainPanel.js'></script>
+    <script src='lib/jquery-hotkeys/jquery-1.2.6.js'></script>
+    <script src='lib/jquery-hotkeys/jquery.hotkeys.js'></script>
     <script src='src/shapes/rectangle.js'></script>
     <script src='src/vector/vector.js'></script>
-    <script src='src/main.js'></script>
 </head>
-<body></body>
+<body>
+<canvas id="grid" width="1024" height="768"></canvas>
+<button id="translationButton">Translation</button>
+<script src='src/main.js'></script>
+</body>
 </html>

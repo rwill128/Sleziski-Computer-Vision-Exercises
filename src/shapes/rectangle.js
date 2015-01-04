@@ -10,6 +10,22 @@ function Rectangle(x1, y1, x2, y2) {
     self.setFirstVertex = function(x, y) {
         self.firstVertex = new Vector([x, y])
     };
+
+    self.x = function() {
+        return _.min([self.firstVertex.elements[0], self.secondVertex.elements[0]]);
+    };
+    
+    self.y = function() {
+        return _.min([self.firstVertex.elements[1], self.secondVertex.elements[1]]);
+    };
+    
+    self.width = function() {
+        return _.max([self.firstVertex.elements[0], self.secondVertex.elements[0]]) - self.x();
+    };
+    
+    self.height = function() {
+        return _.max([self.firstVertex.elements[1], self.secondVertex.elements[1]]) - self.y();
+    };
     
     return self;
 }
