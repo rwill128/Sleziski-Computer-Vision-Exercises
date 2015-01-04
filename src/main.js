@@ -1,3 +1,14 @@
+function getNearestPoint(polygons, mouseVect) {
+    var allPoints = [];
+    _.forEach(polygons, function(poly) {
+        allPoints.push.apply(allPoints, poly.vectors)
+    });
+    return _.min(allPoints, function(vect) {
+        var vectToMouse = mouseVect.subtract(vect);
+        return vectToMouse.magnitude();
+    });
+}
+
 window.onload = function() {
     var grid = document.getElementById("grid");
     var translationButton = document.getElementById("translationButton");
@@ -10,28 +21,20 @@ window.onload = function() {
     var transformationFunctions = [];
     var rectInCreation;
     var FPS = 20;
+
     var transformationType;
 
     function transform(point, mouseVect) {
         transformationFunctions[transformationType](point, mouseVect)
     }
 
-    function getNearestPoint(mouseVect) {
-        var allPoints = [];
-        _.forEach(polygons, function(poly) {
-            allPoints.push.apply(allPoints, poly.vectors)
-        });
-        return _.min(allPoints, function(vect) {
-            var vectToMouse = mouseVect.subtract(vect);
-            return vectToMouse.magnitude();
-        });
-    }
-
     var clickCounter = 0;
     var clickListener = function(event) {
         if(event['ctrlKey'] === true) {
             var mouseVect = new Vector([event.pageX, event.pageY]);
-            transform(getNearestPoint(mouseVect), mouseVect);
+            console.log(event)
+            console.log(mouseVect)
+            transform(getNearestPoint(polygons, mouseVect), mouseVect);
         } else {
             clickCounter = clickCounter + 1;
             if (rectInCreation === undefined) {
@@ -50,22 +53,8 @@ window.onload = function() {
     grid.addEventListener("click", clickListener);
     
     transformationFunctions["translation"] = function(point, mouse) {
-        console.log(point.elements[0]);
-        console.log(point.elements[1]);
-        console.log(mouse.elements[0]);
-        console.log(mouse.elements[1]);
         var difference = mouse.subtract(point);
-        console.log(point.elements[0]);
-        console.log(point.elements[1]);
-        console.log(mouse.elements[0]);
-        console.log(mouse.elements[1]);
-        console.log(difference.elements[0]);
-        console.log(difference.elements[1]);
         point.translate(difference);
-        console.log(point.elements[0]);
-        console.log(point.elements[1]);
-        console.log(mouse.elements[0]);
-        console.log(mouse.elements[1]);
         console.log(difference.elements[0]);
         console.log(difference.elements[1]);
     };
