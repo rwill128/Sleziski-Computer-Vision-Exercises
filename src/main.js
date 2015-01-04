@@ -11,14 +11,37 @@ window.onload = function() {
     var rectInCreation;
     var FPS = 20;
     var transformationType;
-    
+
+    function transform(point) {
+        transformationFunctions[transformationType](point)
+    }
+
+    function getNearestPoint(mouseVect) {
+        var allPoints = [];
+        _.forEach(rectangles, function(rect) {
+            allPoints.push(rect.getTopLeft())
+            allPoints.push(rect.getBottomRight())
+            allPoints.push(rect.getBottomLeft())
+            allPoints.push(rect.getTopRight())
+        })
+        _.min(allPoints, function(rectangle) {
+            
+            
+        })
+    }
+
     var clickListener = function(event) {
-        if (rectInCreation !== undefined) {
-            rectInCreation.setSecondVertex(event.pageX, event.pageY);
-            rectangles.push(rectInCreation);
-            rectInCreation = undefined;
+        if(event['ctrlKey'] === true) {
+            transform(getNearestPoint(new Vector([event.pageX, event.pageY])))
         } else {
-            rectInCreation = new Rectangle(event.pageX, event.pageY, event.pageX, event.pageY)
+            if (rectInCreation !== undefined) {
+                rectInCreation.setBottomRight(event.pageX, event.pageY);
+                rectangles.push(rectInCreation);
+                rectInCreation = undefined;
+            } else {
+                rectInCreation = new Rectangle(event.pageX, event.pageY, event.pageX, event.pageY)
+            }
+            console.log(rectInCreation.getBottomLeftVector())
         }
     };
     grid.addEventListener("click", clickListener);
@@ -43,37 +66,24 @@ window.onload = function() {
 
     };
     
-    var translate = function() {
+    var setTranslate = function() {
         transformationType = "translation"
     };
-    translationButton.addEventListener("click", translate);
-    
-    var up = function() {
-        transformationFunctions[transformationType]();
-    };
-    upButton.addEventListener("click", up); 
-    
-    var down = function() {
-        transformationFunctions[transformationType]();
-    };
-    downButton.addEventListener("click", down);
-    
-    var left = function() {
-        transformationFunctions[transformationType]();
-    };
-    leftButton.addEventListener("click", left);
-    
-    var right = function() {
-        transformationFunctions[transformationType]();
-    };
-    rightButton.addEventListener("click", right);
+    translationButton.addEventListener("click", setTranslate);
 
     function draw() {
         context.clearRect(0,0,1024,768);
         _.forEach(rectangles, function(rect) {
-            context.fillRect(rect.x(), rect.y(), rect.width(), rect.height())
+            context.beginPath();
+            context.moveTo(rect.getTopLeftVector().elements[0], rect.getTopLeftVector().elements[1]);
+            context.lineTo(rect.getBottomLeftVector().elements[0], rect.getBottomLeftVector().elements[1]);
+            context.lineTo(rect.getBottomRightVector().elements[0], rect.getBottomRightVector().elements[1]);
+            context.lineTo(rect.getTopRightVector().elements[0], rect.getTopRightVector().elements[1]);
+            context.closePath();
+            context.stroke();
         });
     }
+    
 
     setInterval(function() {
         draw();
