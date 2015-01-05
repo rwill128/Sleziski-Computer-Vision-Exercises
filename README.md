@@ -1,4 +1,4 @@
-Sleziksi-Computer-Vision-Exercises
+Szeliski-Computer-Vision-Exercises
 ===================================
 
  (My apologies to Sleziski for the mispelling in the repo. I will change if I figure out how.)
