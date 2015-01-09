@@ -32,8 +32,6 @@ window.onload = function() {
     var clickListener = function(event) {
         if(event['ctrlKey'] === true) {
             var mouseVect = new Vector([event.pageX, event.pageY]);
-            console.log(event)
-            console.log(mouseVect)
             transform(getNearestPoint(polygons, mouseVect), mouseVect);
         } else {
             clickCounter = clickCounter + 1;
@@ -55,8 +53,6 @@ window.onload = function() {
     transformationFunctions["translation"] = function(point, mouse) {
         var difference = mouse.subtract(point);
         point.translate(difference);
-        console.log(difference.elements[0]);
-        console.log(difference.elements[1]);
     };
     
     transformationFunctions["affine"] = function() {

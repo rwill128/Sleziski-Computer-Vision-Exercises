@@ -14,6 +14,16 @@ function Rectangle(cornerOne, oppositeCorner) {
         if (_.size(self.vectorArray()[0]) !== _.size(transformationMatrix)) {
             throw new Error("Transformation matrix has invalid dimensions.");
         }
+        self.vectors = _.map(self.vectorArray(), function(rowArray, rowNumber) {
+            var newRowArray = _.map(rowArray, function(value, columnNumber) {
+                var newValue = 0;
+                _.forEach(transformationMatrix, function(transformationArrayRow) {
+                    newValue = newValue + value * transformationArrayRow[columnNumber];                    
+                });
+                return newValue;
+            });
+            return newRowArray;
+        });
     };
     return self;
 }
