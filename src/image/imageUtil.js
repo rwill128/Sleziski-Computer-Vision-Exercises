@@ -32,10 +32,11 @@ var ImageUtil = {
                     _.times(3, function() {
                         imageData[indexCounter] = elementArray;
                         indexCounter = indexCounter + 1
-                    })          
-                    imageData[indexCounter] = 255
+                    });          
+                    imageData[indexCounter] = 255;
                     indexCounter = indexCounter + 1
                 } else {
+                    //we have four-element pixel data such as RGBA
                     _.forEach(elementArray, function(number) {
                         imageData[indexCounter] = number;
                         indexCounter = indexCounter + 1
