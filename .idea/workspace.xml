@@ -4,7 +4,6 @@
     <list default="true" id="29d062f3-16bc-43fb-9c85-06e38569b389" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/demonstrateImageFunctions.js" afterPath="$PROJECT_DIR$/src/demonstrateImageFunctions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image/imageUtil.js" afterPath="$PROJECT_DIR$/src/image/imageUtil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/image/imageUtilSpec.js" afterPath="$PROJECT_DIR$/test/image/imageUtilSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -35,8 +34,8 @@
       <file leaf-file-name="imageUtil.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/image/imageUtil.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="850">
-              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="884">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -59,8 +58,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="425">
-              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -70,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/demonstrateImageFunctions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.55460995" vertical-offset="0" max-vertical-offset="705">
-              <caret line="23" column="59" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="59" />
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -112,8 +111,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/karma.conf.js" />
         <option value="$PROJECT_DIR$/test/demonstrateImageFunctionsSpec.js" />
-        <option value="$PROJECT_DIR$/src/image/imageUtil.js" />
         <option value="$PROJECT_DIR$/test/image/imageUtilSpec.js" />
+        <option value="$PROJECT_DIR$/src/image/imageUtil.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/demonstrateImageFunctions.js" />
       </list>
@@ -841,7 +840,7 @@
       <workItem from="1421346854224" duration="54000" />
       <workItem from="1421515002138" duration="4377000" />
       <workItem from="1421519427521" duration="12935000" />
-      <workItem from="1421532905964" duration="2743000" />
+      <workItem from="1421532905964" duration="3035000" />
     </task>
     <task id="LOCAL-00001" summary="Adding a branch where I'm learning to use RequireJS and other fancy JS tools.">
       <created>1420318058050</created>
@@ -939,11 +938,17 @@
       <option name="project" value="LOCAL" />
       <updated>1421533319778</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Now I'm using my own image utils for grayscale!">
+      <created>1421535687715</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1421535687715</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55641000" />
+    <option name="totallyTimeSpent" value="55933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
@@ -1039,7 +1044,8 @@
     <MESSAGE value="Switching to using Caman.js for most image manipulation because when I'm using my own functions I couldn't figure out a great way to draw them afterward." />
     <MESSAGE value="Trying to find an easy way to just set pixels on a canvas so I can write the rest for the practice of it." />
     <MESSAGE value="Finally figured it out." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finally figured it out." />
+    <MESSAGE value="Now I'm using my own image utils for grayscale!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now I'm using my own image utils for grayscale!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1308,10 +1314,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/image/imageUtil.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="850">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -1328,10 +1334,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/image/imageUtil.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="425">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="884">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1339,7 +1345,7 @@
     <entry file="file://$PROJECT_DIR$/src/demonstrateImageFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55460995" vertical-offset="0" max-vertical-offset="705">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="59" />
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
           <folding />
         </state>
       </provider>

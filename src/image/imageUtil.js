@@ -29,10 +29,12 @@ var ImageUtil = {
             _.forEach(rowArray, function(elementArray) {
                 if (_.size(elementArray) === 0) {
                     //we have one-element pixel data such as a grayscale image.
-                    _.times(4, function() {
+                    _.times(3, function() {
                         imageData[indexCounter] = elementArray;
                         indexCounter = indexCounter + 1
-                    })                    
+                    })          
+                    imageData[indexCounter] = 255
+                    indexCounter = indexCounter + 1
                 } else {
                     _.forEach(elementArray, function(number) {
                         imageData[indexCounter] = number;
