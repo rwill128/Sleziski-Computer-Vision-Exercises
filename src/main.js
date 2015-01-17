@@ -16,7 +16,7 @@ window.onload = function() {
     var downButton = document.getElementById("downButton");
     var leftButton = document.getElementById("leftButton");
     var rightButton = document.getElementById("rightButton");
-    var context = grid.getContext("2d");
+    //var context = grid.getContext("2d");
     var polygons = [];
     var transformationFunctions = [];
     var rectInCreation;
@@ -48,7 +48,7 @@ window.onload = function() {
             }
         }
     };
-    grid.addEventListener("click", clickListener);
+    //grid.addEventListener("click", clickListener);
     
     transformationFunctions["translation"] = function(point, mouse) {
         var difference = mouse.subtract(point);
@@ -74,7 +74,7 @@ window.onload = function() {
     var setTranslate = function() {
         transformationType = "translation"
     };
-    translationButton.addEventListener("click", setTranslate);
+    //translationButton.addEventListener("click", setTranslate);
 
     function draw() {
         context.clearRect(0,0,1024,768);

@@ -6,17 +6,18 @@ module.exports = function(config) {
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
 
-
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['chai'],
 
 
     // list of files / patterns to load in the browser
     files: [
+      'index.html',
       {pattern: 'lib/**/*.js', included: true},
       {pattern: 'src/**/*.js', included: true},
       {pattern: 'test/**/*Spec.js', included: true},
+      {pattern: 'data/**/*.jpg', included: false, served: true}
     ],
 
 
@@ -56,8 +57,19 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome'],
+    browsers: ['Chrome_without_security'],
+    
+    customLaunchers: {
+      Chrome_without_security: {
+        base: 'Chrome',
+        flags: ['--allow-file-access-from-files',
+                '--unlimited-quota-for-files']
+      }
+    },
 
+    proxies: {
+      '/data/': '/base/data/'
+    },
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
