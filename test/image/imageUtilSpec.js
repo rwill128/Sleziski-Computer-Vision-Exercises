@@ -32,4 +32,30 @@ describe('The ImageUtil API', function() {
         };
         ImageUtil.loadImage('data/blue-square.jpg', 2, 2, callback)
     })
+    it('should place my image data into a canvas image data object that I pass in.', function(done) {
+        var callback = function(pixelData) {
+            var canvas = document.createElement('canvas');
+            var context = canvas.getContext('2d');
+            var image = context.createImageData(2, 2);
+            ImageUtil.populateCanvasImageData(pixelData, image.data);
+            expect(image.data[0]).toEqual(63)
+            expect(image.data[1]).toEqual(71)
+            expect(image.data[2]).toEqual(204)
+            expect(image.data[3]).toEqual(255)
+            done()
+        }
+        ImageUtil.loadImage('data/blue-square.jpg', 2, 2, callback)
+    })
+    it('should place my greyscale image data into a canvas image data object that I pass in.', function(done) {
+        var callback = function(pixelData) {
+            var canvas = document.createElement('canvas');
+            var context = canvas.getContext('2d');
+            var image = context.createImageData(2, 2);
+            var grayscale = ImageUtil.grayscale(pixelData)
+            ImageUtil.populateCanvasImageData(grayscale, image.data);
+            expect(image.data[0]).toEqual(84);
+            done()
+        }
+        ImageUtil.loadImage('data/blue-square.jpg', 2, 2, callback)
+    })
 });
