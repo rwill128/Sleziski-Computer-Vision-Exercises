@@ -15,9 +15,9 @@ window.onload = function() {
     
     var canvas = document.getElementById('demo-canvas')
     var context = canvas.getContext('2d')
-    var image = context.createImageData(1,1);
-    var data = image.data
-    data[0] = 63;
-    data[0] = 71;
-    context.putImageData(image, 1, 1)
+    var image = context.createImageData(10,10);
+    _.forEach(image.data, function(element, index) {
+        image.data[index] = 100
+    })
+    context.putImageData(image, 0, 0)
 };
