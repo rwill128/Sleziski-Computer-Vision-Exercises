@@ -1,37 +1,35 @@
 describe('The ImageUtil API', function() {
-    it('should load one pixel correctly from an image at the specified image path.', function(done) {
+    it('should successfully load image data.', function(done) {
         var callback = function(pixelData) {
-            expect(pixelData).toEqual([[83.77]]);
+            expect(pixelData[0][0]).toEqual([63, 71, 204, 255]);
             done()
         };
         ImageUtil.loadImage('data/blue-square.jpg', 1, 1, callback)
     });
-    it('should load 2 horizontal pixels correctly from an image.', function(done) {
+    it('should successfully return one pixel grayscale image with one value at each pixel instead of an array.', function(done) {
         var callback = function(pixelData) {
-            expect(pixelData).toEqual([[83.77, 83.77]]);
+            expect(pixelData[0][0]).toEqual([63, 71, 204, 255]);
+            var greyscaleData = ImageUtil.grayscale(pixelData);
+            expect(greyscaleData[0][0]).toEqual(83.77);
             done()
         };
-        ImageUtil.loadImage('data/blue-square.jpg', 2, 1, callback)
+        ImageUtil.loadImage('data/blue-square.jpg', 1, 1, callback)
     });
-    it('should load 2 vertical pixels correctly from an image.', function(done) {
+    it('should successfully return a 2*2 section of an image.', function(done) {
         var callback = function(pixelData) {
-            expect(pixelData).toEqual([[83.77], [83.77]]);
+            expect(pixelData).toEqual([[[63, 71, 204, 255], [63, 71, 204, 255]],
+                                        [[63, 71, 204, 255], [63, 71, 204, 255]]]);
             done()
         };
-        ImageUtil.loadImage('data/blue-square.jpg', 1, 2, callback)
+        ImageUtil.loadImage('data/blue-square.jpg', 2, 2, callback)
     });
-    it('should load 3 horizonal pixels correctly from an image.', function(done) {
+    it('should successfully turn a 2*2 section of an image into grayscale.', function(done) {
         var callback = function(pixelData) {
-            expect(pixelData).toEqual([[83.77, 83.77, 83.77]]);
+            var grayscaleData = ImageUtil.grayscale(pixelData);
+            expect(grayscaleData).toEqual([[83.77, 83.77],
+                                            [83.77, 83.77]]);
             done()
         };
-        ImageUtil.loadImage('data/blue-square.jpg', 3, 1, callback)
-    });
-    it('should load 4 horizonal pixels correctly from an image.', function(done) {
-        var callback = function(pixelData) {
-            expect(pixelData).toEqual([[83.77, 83.77, 83.77, 83.77]]);
-            done()
-        };
-        ImageUtil.loadImage('data/blue-square.jpg', 4, 1, callback)
+        ImageUtil.loadImage('data/blue-square.jpg', 2, 2, callback)
     })
 });
