@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Mocha</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mocha.css" />
-  </head>
-  <body>
-    <div id="mocha"></div>
-    <script src="mocha.js"></script>
-    <script>mocha.setup('bdd')</script>
-    <script src="tests.js"></script>
-    <script>
-      mocha.run();
-    </script>
-  </body>
+<head>
+    <script src='lib/lodash/lodash.js'></script>
+    <script src='lib/jquery-hotkeys/jquery-1.2.6.js'></script>
+    <script src='lib/jquery-hotkeys/jquery.hotkeys.js'></script>
+    <script src='src/shapes/polygon.js'></script>
+    <script src='src/vector/vector.js'></script>
+    <script src='src/image/imageUtil.js'></script>
+</head>
+<body>
+<script src='src/main.js'></script>
+<img id="test-image" src="data/blue-square.jpg">
+</body>
 </html>

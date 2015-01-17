@@ -2,423 +2,282 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29d062f3-16bc-43fb-9c85-06e38569b389" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/blue-square.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/images/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/ext/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/img_the_scream.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/images/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/examples/images/test1_1280.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/examples/images/test1_640.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.gitignore.orig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.gitignore.rej" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/assertion-error/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/node_modules/ms/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/commander/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/commander/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/00-setup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/Cakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/assertion-error/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/growl/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/commander/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/inherits/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/commander/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/assertion-error/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/node_modules/ms/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/diff/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/inherits/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/commander/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/growl/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/commander/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/ReleaseNotes.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/_mocha.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/_mocha" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/bin/_mocha" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addChainableMethod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addMethod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addProperty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/analyze.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/analyze.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/interface/assert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/assertion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/core/assertions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/attrs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/autoload.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/autoload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/examples/browser/autoload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/bash-comparison.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/bash-results.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/examples/node/basic.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/bdd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/bench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/bench" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/blender.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/blender.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/lib/blenders.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/unit/blenders.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/blenders.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/block-comment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/block.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/blur.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/brace-expand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/caching.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/calculate.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/unit/calculate.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/calculate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/caman.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/dist/caman.full.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/dist/caman.full.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/dist/caman.full.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/dist/caman.full.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/caman.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/dist/caman.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/dist/caman.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/dist/caman.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/dist/caman.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/proxies/caman_proxy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/examples/uploaders/caman_upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/camera.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/case.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/chai.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/chmod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/chmod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/clobber.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/clobber.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/bin/cmd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/commander/lib/commander.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/comment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/compiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/compoundBlur.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/unit/context.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/context.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/convert.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/convert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/templates/coverage.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/examples/browser/curves.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/cwd-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/dash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/default_bool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/diff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/diff/diff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/doc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/docco.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/doctype.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/doctypes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/dot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/dotted.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/each.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/edges.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/lib/eql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/escape-string-regexp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/event.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/interface/expect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/exports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/test/extglob-ending-with-state-char.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/examples/node/filter.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/filter.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/lib/filters.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/unit/filters.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/filters.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/flag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/examples/g.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getActual.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getEnumerableProperties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getMessage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getName.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getPathValue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getProperties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/glob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/glob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/globstar-match.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/graceful-fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/ext/grey.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/growl/lib/growl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/testing/head.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/examples/browser/hidpi.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/hook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/html-cov.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/imageUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/image/imageUtilSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/examples/browser/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/testing/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/assertion-error/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/commander/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/node_modules/ms/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/escape-string-regexp/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/commander/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/testing/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/inherits/inherits.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/inherits/inherits_browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/unit/initialization.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/inline-tags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/inspect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/io.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/io.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/.bin/jade.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/jade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/jade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/jade.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/jade.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/.bin/jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/bin/jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/adapters/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/json-cov.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/json-stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/karma.sauce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/landing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/layer.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/layer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/unit/layers.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/testing/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/lexer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/literal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/logger.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/logger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/long.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/mark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/templates/menu.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/minimatch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/.bin/mkdirp.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/mkdirp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/mkdirp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/.bin/mkdirp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/mocha.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mocha.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/mocha.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mocha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/mocha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/mocha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/mocha" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/bin/mocha" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/nocase-nomagic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/nyan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/objDisplay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/test/open.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/opts_fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/opts_fs_sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/overwriteChainableMethod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/overwriteMethod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/overwriteProperty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/assertion-error/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/commander/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/node_modules/ms/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/diff/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/escape-string-regexp/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/inherits/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/growl/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/commander/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/example/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/parse_modified.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/path.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/pause-resume.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/perm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/perm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/perm_sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/perm_sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/pixelInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/pixelinfo.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/plugin.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/plugin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/polyfills.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/posterize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/examples/pow.js.orig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/examples/pow.js.rej" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/examples/pow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/examples/pow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/presets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/race.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/race.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/graceful-fs/test/readdir-sort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/readme.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/readme.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/escape-string-regexp/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/rel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/rel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/renderer.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/unit/renderer.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/renderer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/return.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/return_sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/root-nomount.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/root.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/root.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/runnable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/runner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/runtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/runtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/runtime.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/unit/sanity.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/sauce.browsers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/templates/script.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/self-closing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/short.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/interface/should.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/sigmund.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/lib/size.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/size.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/stackBlur.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/stat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/store.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/store.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/templates/style.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/suite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/tag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/interfaces/tdd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/ext/test-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/test.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/inherits/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/growl/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/test/testacular.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/nodes/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/threshold.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/transferFlags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/tty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/lib/type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/umask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/umask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/node_modules/mkdirp/test/umask_sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/test/umask_sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/bin/usage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/testing/user.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/testing/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/examples/usr-local.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/src/core/util.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/CamanJS-4.1.1/docs/util.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/whitespace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/reporters/xunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/zz-cleanup.js" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\bench" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\ext\grey.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\ext\grey.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\ext\test-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\testacular.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\unit\blenders.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\unit\calculate.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\unit\context.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\unit\filters.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\unit\initialization.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\unit\layers.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\unit\renderer.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\lib\CamanJS-4.1.1\test\unit\sanity.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\mocha.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\mocha.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\bin\_mocha" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\bin\mocha" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\images\error.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\images\ok.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\browser\debug.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\browser\diff.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\browser\escape-string-regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\browser\events.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\browser\fs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\browser\glob.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\browser\path.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\browser\progress.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\browser\tty.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\context.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\hook.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\interfaces\bdd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\interfaces\exports.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\interfaces\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\interfaces\qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\interfaces\tdd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\mocha.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\ms.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\base.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\doc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\dot.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\html-cov.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\html.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\json-cov.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\json-stream.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\json.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\landing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\list.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\nyan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\progress.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\tap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\templates\coverage.jade" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\templates\menu.jade" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\templates\script.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\templates\style.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\reporters\xunit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\runnable.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\runner.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\suite.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\template.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\mocha.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\mocha.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\.bin\jade" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\.bin\jade.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\.bin\mkdirp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\.bin\mkdirp.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\commander\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\commander\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\commander\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\debug.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\node_modules\ms\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\node_modules\ms\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\node_modules\ms\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\node_modules\ms\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\debug\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\diff\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\diff\diff.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\diff\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\escape-string-regexp\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\escape-string-regexp\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\escape-string-regexp\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\examples\g.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\examples\usr-local.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\glob.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\graceful-fs\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\graceful-fs\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\graceful-fs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\graceful-fs\graceful-fs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\graceful-fs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\graceful-fs\polyfills.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\graceful-fs\test\open.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\graceful-fs\test\readdir-sort.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\inherits\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\inherits\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\inherits\inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\inherits\inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\inherits\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\inherits\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\minimatch.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\CONTRIBUTORS" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\lib\lru-cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\test\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\test\foreach.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\lru-cache\test\memory-leak.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\sigmund\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\sigmund\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\sigmund\bench.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\sigmund\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\sigmund\sigmund.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\node_modules\sigmund\test\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\test\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\test\brace-expand.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\test\caching.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\test\defaults.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\node_modules\minimatch\test\extglob-ending-with-state-char.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\00-setup.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\bash-comparison.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\bash-results.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\cwd-test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\globstar-match.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\mark.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\nocase-nomagic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\pause-resume.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\root-nomount.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\root.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\stat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\glob\test\zz-cleanup.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\growl\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\growl\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\growl\lib\growl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\growl\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\growl\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\bin\jade" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\jade.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\jade.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\jade.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\doctypes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\filters.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\inline-tags.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\jade.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\lexer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\attrs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\block-comment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\block.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\case.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\code.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\comment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\doctype.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\each.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\filter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\literal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\tag.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\nodes\text.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\self-closing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\commander\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\commander\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\commander\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\commander\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\commander\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\commander\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\commander\lib\commander.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\commander\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\.gitignore.orig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\.gitignore.rej" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\examples\pow.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\examples\pow.js.orig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\examples\pow.js.rej" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\test\chmod.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\test\clobber.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\test\mkdirp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\test\perm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\test\perm_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\test\race.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\test\rel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\test\sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\test\umask.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\node_modules\mkdirp\test\umask_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\runtime.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\test.jade" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\testing\head.jade" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\testing\index.jade" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\testing\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\testing\layout.jade" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\testing\user.jade" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\jade\testing\user.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\bin\cmd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\bin\usage.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\examples\pow.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\example\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\test\dash.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\test\default_bool.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\test\dotted.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\test\long.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\test\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\test\parse_modified.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\test\short.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\node_modules\minimist\test\whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\chmod.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\clobber.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\mkdirp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\opts_fs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\opts_fs_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\perm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\perm_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\race.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\rel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\return.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\return_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\root.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\umask.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\node_modules\mkdirp\test\umask_sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\node_modules\mocha\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rwill128\Slezinksi-Computer-Vision-Exercises\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/blue-square.jpg" afterPath="$PROJECT_DIR$/data/blue-square.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image/imageUtil.js" afterPath="$PROJECT_DIR$/src/image/imageUtil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/image/imageUtilSpec.js" afterPath="$PROJECT_DIR$/test/image/imageUtilSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="$PROJECT_DIR$/karma.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/matrix/matrix.js" afterPath="$PROJECT_DIR$/src/matrix/matrix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/matrix/matrixSpec.js" afterPath="$PROJECT_DIR$/test/matrix/matrixSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shapes/rectangle.js" afterPath="$PROJECT_DIR$/src/shapes/rectangle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Slezinksi-Computer-Vision-Exercises.iws" />
@@ -445,11 +304,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="imageUtilSpec.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="imageUtilSpec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/image/imageUtilSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.07234043" vertical-offset="0" max-vertical-offset="714">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -458,38 +317,8 @@
       <file leaf-file-name="imageUtil.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/image/imageUtil.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="408">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/karma.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05007364" vertical-offset="0" max-vertical-offset="679">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -528,11 +357,11 @@
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/test/image/imageSpec.js" />
         <option value="$PROJECT_DIR$/src/image/image.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/karma.conf.js" />
         <option value="$PROJECT_DIR$/src/image/imageUtil.js" />
         <option value="$PROJECT_DIR$/test/image/imageUtilSpec.js" />
-        <option value="$PROJECT_DIR$/karma.conf.js" />
-        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -758,6 +587,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slezinksi-Computer-Vision-Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slezinksi-Computer-Vision-Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slezinksi-Computer-Vision-Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slezinksi-Computer-Vision-Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slezinksi-Computer-Vision-Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slezinksi-Computer-Vision-Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CamanJS-4.1.1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1257,7 +1132,7 @@
       <workItem from="1421345525335" duration="663000" />
       <workItem from="1421346854224" duration="54000" />
       <workItem from="1421515002138" duration="4377000" />
-      <workItem from="1421519427521" duration="3238000" />
+      <workItem from="1421519427521" duration="7070000" />
     </task>
     <task id="LOCAL-00001" summary="Adding a branch where I'm learning to use RequireJS and other fancy JS tools.">
       <created>1420318058050</created>
@@ -1313,11 +1188,17 @@
       <option name="project" value="LOCAL" />
       <updated>1420845625294</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Messing around with Caman and Mocha and Chai.&#10;">
+      <created>1421522813142</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1421522813142</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43201000" />
+    <option name="totallyTimeSpent" value="47033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
@@ -1326,6 +1207,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1339,6 +1221,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22526042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1347,9 +1230,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1407,7 +1288,8 @@
     <MESSAGE value="Made some progress, then ran into an issue because my drawing code is very stupid right now." />
     <MESSAGE value="Things are working now! Yay for unit tests." />
     <MESSAGE value="Added some working matrix multiplication!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some working matrix multiplication!" />
+    <MESSAGE value="Messing around with Caman and Mocha and Chai.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Messing around with Caman and Mocha and Chai.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1626,58 +1508,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/image/imageUtilSpec.js">
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/image/imageUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.26524824" vertical-offset="0" max-vertical-offset="1411">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="340">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/CamanJS-4.1.1/test/ext/test-loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mocha.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.011561" vertical-offset="3468" max-vertical-offset="107168">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05007364" vertical-offset="0" max-vertical-offset="679">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/imageUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/image/imageUtilSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07234043" vertical-offset="0" max-vertical-offset="714">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
