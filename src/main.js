@@ -9,8 +9,9 @@ function getNearestPoint(polygons, mouseVect) {
     });
 }
 
+/*
 window.onload = function() {
-    var grid = document.getElementById("grid");
+    var grid = document.getElementById("demo-canvas");
     var translationButton = document.getElementById("translationButton");
     var upButton = document.getElementById("upButton");
     var downButton = document.getElementById("downButton");
@@ -32,8 +33,6 @@ window.onload = function() {
     var clickListener = function(event) {
         if(event['ctrlKey'] === true) {
             var mouseVect = new Vector([event.pageX, event.pageY]);
-            console.log(event)
-            console.log(mouseVect)
             transform(getNearestPoint(polygons, mouseVect), mouseVect);
         } else {
             clickCounter = clickCounter + 1;
@@ -50,13 +49,11 @@ window.onload = function() {
             }
         }
     };
-    grid.addEventListener("click", clickListener);
+    //grid.addEventListener("click", clickListener);
     
     transformationFunctions["translation"] = function(point, mouse) {
         var difference = mouse.subtract(point);
         point.translate(difference);
-        console.log(difference.elements[0]);
-        console.log(difference.elements[1]);
     };
     
     transformationFunctions["affine"] = function() {
@@ -78,7 +75,7 @@ window.onload = function() {
     var setTranslate = function() {
         transformationType = "translation"
     };
-    translationButton.addEventListener("click", setTranslate);
+    //translationButton.addEventListener("click", setTranslate);
 
     function draw() {
         context.clearRect(0,0,1024,768);
@@ -98,3 +95,4 @@ window.onload = function() {
         draw();
     }, 1000/FPS)
 };
+*/

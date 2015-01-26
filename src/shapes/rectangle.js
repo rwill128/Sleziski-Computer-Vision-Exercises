@@ -8,12 +8,22 @@ function Rectangle(cornerOne, oppositeCorner) {
         return self.vectors
     };
     
-    //Does a post-multiply of our points in an X * 2 formation with an input matrix. Meaning the equation is self.matrix * tranformationMatrix
+    //Does a post-multiply of the equation self.matrix * tranformationMatrix
     self.transform = function(transformationMatrix) {
         //If the size of the first row of our coordinate matrix does not equal the number of columns in the transformation matrix.
         if (_.size(self.vectorArray()[0]) !== _.size(transformationMatrix)) {
             throw new Error("Transformation matrix has invalid dimensions.");
         }
+        self.vectors = _.map(self.vectorArray(), function(rowArray, rowNumber) {
+            var newRowArray = _.map(rowArray, function(value, columnNumber) {
+                var newValue = 0;
+                _.forEach(transformationMatrix, function(transformationArrayRow) {
+                    newValue = newValue + value * transformationArrayRow[columnNumber];                    
+                });
+                return newValue;
+            });
+            return newRowArray;
+        });
     };
     return self;
 }

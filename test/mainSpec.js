@@ -8,5 +8,4 @@ describe('Helper functions', function() {
         var nearestPoint = getNearestPoint(polys, new Vector([6.0, 6.0]))
         expect(nearestPoint.elements).toEqual([5.0,5.0]);
     })
-    
 });
